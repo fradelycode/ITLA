@@ -1,0 +1,77 @@
+<!-- @format -->
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta nombre="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ingreso de productos</title>
+		<link rel="stylesheet" href="proyect.css" />
+	</head>
+	<body class="body">
+		<!--Barra superior indicando en que parte del programa esta-->
+		<nav class="barra-superior">
+			<a>Productos</a>
+			<hr />
+		</nav>
+
+		<div class="container">
+			<!-- Formulario para ingresar los productos-->
+			<div id="App">
+				<div>
+					<div>
+						<fieldset class="Cuadro">
+							<div class="Agregar">
+								<h4>Agregar Productos</h4>
+							</div>
+							<form id="formulario">
+								<div>
+									<input
+										class="producto"
+										type="text"
+										id="nombre"
+										placeholder="Producto nombre"
+									/>
+								</div>
+								<div>
+									<input
+										class="precio"
+										type="number"
+										id="precio"
+										step="0.01"
+										placeholder="Producto precio"
+									/>
+								</div>
+								<div>
+									<input
+										class="fecha"
+										type="number"
+										id="year"
+										min="2000"
+										max="2020"
+										step="1"
+										placeholder="Product year"
+									/>
+								</div>
+								<input class="send" type="submit" value="Save" />
+							</form>
+							<form
+								action="C:\Users\JzChannel000333\Downloads\spf\spf\ventas.html"
+							>
+								<input class="ventas" type="submit" value="Ventas" />
+							</form>
+							<form
+								action="C:\Users\JzChannel000333\Downloads\spf\spf\login.html"
+							>
+								<input class="users" type="submit" value="users" />
+							</form>
+						</fieldset>
+					</div>
+				</div>
+
+				<div class="Impresion" id="lista"></div>
+			</div>
+		</div>
+
+		<script src="../js/proyect.js"></script>
+	</body>
+</html>

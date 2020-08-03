@@ -1,0 +1,225 @@
+/** @format */
+
+.body {
+	color: aliceblue;
+	background-color: #1d1d1f;
+}
+
+.body-login {
+	color: black;
+	background-color: black;
+}
+/*css del login*/
+.cuadro-login {
+	width: 700px;
+	height: 200px;
+	/* font-size: 30px; */
+	font-family: 'Manrope', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin-top: 200px;
+	background-color: #ffffff0e;
+	border: none;
+	border-radius: 5px;
+	color: aliceblue;
+	border-color: aliceblue;
+}
+.input-login1 {
+	background-color: aliceblue;
+	border: none;
+	border-radius: 5px;
+	color: black;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	height: 30px;
+	width: 500px;
+	letter-spacing: 1px;
+	margin: 20px 0px;
+}
+.input-login2 {
+	background-color: aliceblue;
+	border: none;
+	border-radius: 5px;
+	color: black;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	height: 30px;
+	width: 500px;
+	letter-spacing: 1px;
+	margin-top: 0px;
+}
+.validar-login {
+	background-color: rgb(3, 151, 3);
+	border: none;
+	border-radius: 5px;
+	color: black;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	height: 30px;
+	width: 90px;
+	letter-spacing: 1px;
+	margin: 10px 0px;
+}
+
+/*css de la parte de productos*/
+.barra-superior {
+	width: 100%;
+	height: 50px;
+	font-size: 25px;
+	font-family: 'Manrope', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin-top: 15px;
+	color: aliceblue;
+}
+
+.cuadro {
+	font-size: 25px;
+	font-family: 'Manrope', sans-serif;
+	font-family: 'PT Sans Narrow', sans-serif;
+	margin-top: 50px;
+	width: 230px;
+	height: 290px;
+	background-color: #ffffff1a;
+	border: none;
+	border-radius: 25px;
+	color: aliceblue;
+	border-color: aliceblue;
+}
+.producto {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	height: 30px;
+	width: 230px;
+	letter-spacing: 1px;
+	margin: 10px 0px;
+}
+.precio {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	height: 30px;
+	width: 230px;
+	letter-spacing: 1px;
+	margin: 10px 0px;
+}
+.fecha {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	height: 30px;
+	width: 230px;
+	letter-spacing: 1px;
+	margin: 10px 0px;
+}
+.send {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: none;
+	border-radius: 25px;
+	color: white;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	height: 30px;
+	width: 230px;
+	letter-spacing: 1px;
+	margin: 10px 0px;
+}
+
+.impresion {
+	margin: -300px 250px 100px 500px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	font-size: 16px;
+}
+.ventas {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	height: 30px;
+	width: 80px;
+	letter-spacing: 1px;
+	margin: 10px 0px;
+}
+.users {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	height: 30px;
+	width: 80px;
+	letter-spacing: 1px;
+	margin: -25px 0px;
+}
+
+/*css de la parte de ventas*/
+.entrada {
+	margin-top: -80px;
+}
+.boton1 {
+	margin-top: -60px;
+}
+.boton2 {
+	margin-top: -60px;
+	margin-left: 60px;
+}
+.compras {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	height: 30px;
+	width: 85px;
+	letter-spacing: 1px;
+	margin: 10px 0px;
+	margin-left: 1090px;
+}
+.users2 {
+	background-color: rgba(255, 255, 255, 0.1);
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	height: 30px;
+	width: 80px;
+	letter-spacing: 1px;
+	margin: -56px 0px;
+	margin-left: 1180px;
+}

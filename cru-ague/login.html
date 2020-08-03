@@ -1,0 +1,43 @@
+<!-- @format -->
+<!-- html, body, title -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Login</title>
+		<link rel="stylesheet" href="css/proyect.css" />
+	</head>
+	<body>
+		<div class="body-login">
+			<form>
+				<fieldset class="cuadro-login">
+					<h3>Registros</h3>
+
+					<input
+						class="input-login1"
+						type="text"
+						id="usuario"
+						placeholder="usuario"
+					/>
+
+					<input
+						class="input-login2"
+						type="password"
+						id="clave"
+						placeholder="password"
+					/>
+
+					<input
+						class="validar-login"
+						type="button"
+						onclick="validar()"
+						value="verificar"
+					/>
+				</fieldset>
+			</form>
+		</div>
+
+		<script src="js/login-validation.js"></script>
+	</body>
+</html>
